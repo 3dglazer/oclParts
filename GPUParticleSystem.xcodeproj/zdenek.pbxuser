@@ -1,0 +1,117 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BB13B368143DABAC008C1EAA /* GPUParticleSystem */;
+		activeTarget = 8DD76F620486A84900D96B5E /* GPUParticleSystem */;
+		codeSenseManager = BB13B384143DABB4008C1EAA /* Code sense */;
+		executables = (
+			BB13B368143DABAC008C1EAA /* GPUParticleSystem */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339585964;
+			PBXWorkspaceStateSaveDate = 339585964;
+		};
+		perUserProjectItems = {
+			BB13B385143DABDC008C1EAA /* PBXBookmark */ = BB13B385143DABDC008C1EAA /* PBXBookmark */;
+			BB13B3A2143DAD32008C1EAA /* PBXTextBookmark */ = BB13B3A2143DAD32008C1EAA /* PBXTextBookmark */;
+		};
+		sourceControlManager = BB13B383143DABB4008C1EAA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 4017}}";
+			sepNavSelRange = "{347, 0}";
+			sepNavVisRange = "{1534, 883}";
+			sepNavWindowFrame = "{{15, 326}, {813, 447}}";
+		};
+	};
+	8DD76F620486A84900D96B5E /* GPUParticleSystem */ = {
+		activeExec = 0;
+		executables = (
+			BB13B368143DABAC008C1EAA /* GPUParticleSystem */,
+		);
+	};
+	BB13B368143DABAC008C1EAA /* GPUParticleSystem */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GPUParticleSystem;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	BB13B383143DABB4008C1EAA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BB13B384143DABB4008C1EAA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BB13B385143DABDC008C1EAA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+	};
+	BB13B3A2143DAD32008C1EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 19";
+		rLen = 0;
+		rLoc = 347;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 1534;
+	};
+}

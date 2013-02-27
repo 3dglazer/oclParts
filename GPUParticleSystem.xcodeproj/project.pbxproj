@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6109F16212F58D8A00835F59 /* CL_MainObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6109F16112F58D8A00835F59 /* CL_MainObject.cpp */; };
+		6109F1E712F5B4A200835F59 /* CL_EvenOddMergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6109F1E612F5B4A200835F59 /* CL_EvenOddMergeSort.cpp */; };
+		6109F1FD12F5BFCD00835F59 /* CL_Utils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6109F1FC12F5BFCD00835F59 /* CL_Utils.cpp */; };
+		6109F22A12F5C1F000835F59 /* CL_ProgramObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6109F22912F5C1F000835F59 /* CL_ProgramObject.cpp */; };
+		6109F23712F5C62400835F59 /* evenOddMergeSort.cl in Sources */ = {isa = PBXBuildFile; fileRef = 6109F23612F5C62400835F59 /* evenOddMergeSort.cl */; };
+		61446CB812DB3E4600B06CC8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61446CB712DB3E4600B06CC8 /* GLUT.framework */; };
+		61446CBE12DB3E5000B06CC8 /* OpenCL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61446CBD12DB3E5000B06CC8 /* OpenCL.framework */; };
+		61446CC212DB3E5F00B06CC8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61446CC112DB3E5F00B06CC8 /* OpenGL.framework */; };
+		61446CD312DB46FC00B06CC8 /* OpenCLObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */; };
+		61446CF212DB672700B06CC8 /* OpenGLUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61446CF012DB672700B06CC8 /* OpenGLUtils.cpp */; };
+		61446CF712DBBD2D00B06CC8 /* gravityParticles.cl in Sources */ = {isa = PBXBuildFile; fileRef = 61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */; };
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8DD76F6A0486A84900D96B5E /* GPUParticleSystem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* GPUParticleSystem.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F6A0486A84900D96B5E /* GPUParticleSystem.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6109F16012F58D8A00835F59 /* CL_MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CL_MainObject.h; sourceTree = "<group>"; };
+		6109F16112F58D8A00835F59 /* CL_MainObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CL_MainObject.cpp; sourceTree = "<group>"; };
+		6109F1E512F5B4A200835F59 /* CL_EvenOddMergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CL_EvenOddMergeSort.h; sourceTree = "<group>"; };
+		6109F1E612F5B4A200835F59 /* CL_EvenOddMergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CL_EvenOddMergeSort.cpp; sourceTree = "<group>"; };
+		6109F1EA12F5B4DE00835F59 /* CL_Include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CL_Include.h; sourceTree = "<group>"; };
+		6109F1FB12F5BFCD00835F59 /* CL_Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CL_Utils.h; sourceTree = "<group>"; };
+		6109F1FC12F5BFCD00835F59 /* CL_Utils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CL_Utils.cpp; sourceTree = "<group>"; };
+		6109F22812F5C1F000835F59 /* CL_ProgramObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CL_ProgramObject.h; sourceTree = "<group>"; };
+		6109F22912F5C1F000835F59 /* CL_ProgramObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CL_ProgramObject.cpp; sourceTree = "<group>"; };
+		6109F23612F5C62400835F59 /* evenOddMergeSort.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = evenOddMergeSort.cl; sourceTree = "<group>"; };
+		61446CB712DB3E4600B06CC8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		61446CBD12DB3E5000B06CC8 /* OpenCL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenCL.framework; path = System/Library/Frameworks/OpenCL.framework; sourceTree = SDKROOT; };
+		61446CC112DB3E5F00B06CC8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		61446CD112DB46FC00B06CC8 /* OpenCLObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCLObject.h; sourceTree = "<group>"; };
+		61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCLObject.cpp; sourceTree = "<group>"; };
+		61446CF012DB672700B06CC8 /* OpenGLUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLUtils.cpp; sourceTree = "<group>"; };
+		61446CF112DB672700B06CC8 /* OpenGLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLUtils.h; sourceTree = "<group>"; };
+		61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = gravityParticles.cl; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* GPUParticleSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPUParticleSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* GPUParticleSystem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GPUParticleSystem.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61446CB812DB3E4600B06CC8 /* GLUT.framework in Frameworks */,
+				61446CBE12DB3E5000B06CC8 /* OpenCL.framework in Frameworks */,
+				61446CC212DB3E5F00B06CC8 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* GPUParticleSystem */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+				61446CB712DB3E4600B06CC8 /* GLUT.framework */,
+				61446CBD12DB3E5000B06CC8 /* OpenCL.framework */,
+				61446CC112DB3E5F00B06CC8 /* OpenGL.framework */,
+			);
+			name = GPUParticleSystem;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6109F2F912F5D5E000835F59 /* CL_Kernels */,
+				61446CF012DB672700B06CC8 /* OpenGLUtils.cpp */,
+				61446CF112DB672700B06CC8 /* OpenGLUtils.h */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				61446CD112DB46FC00B06CC8 /* OpenCLObject.h */,
+				61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */,
+				61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */,
+				6109F16012F58D8A00835F59 /* CL_MainObject.h */,
+				6109F16112F58D8A00835F59 /* CL_MainObject.cpp */,
+				6109F1E512F5B4A200835F59 /* CL_EvenOddMergeSort.h */,
+				6109F1E612F5B4A200835F59 /* CL_EvenOddMergeSort.cpp */,
+				6109F1EA12F5B4DE00835F59 /* CL_Include.h */,
+				6109F1FB12F5BFCD00835F59 /* CL_Utils.h */,
+				6109F1FC12F5BFCD00835F59 /* CL_Utils.cpp */,
+				6109F22812F5C1F000835F59 /* CL_ProgramObject.h */,
+				6109F22912F5C1F000835F59 /* CL_ProgramObject.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* GPUParticleSystem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6109F2F912F5D5E000835F59 /* CL_Kernels */ = {
+			isa = PBXGroup;
+			children = (
+				6109F23612F5C62400835F59 /* evenOddMergeSort.cl */,
+			);
+			name = CL_Kernels;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859E8B029090EE04C91782 /* GPUParticleSystem.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* GPUParticleSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GPUParticleSystem" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPUParticleSystem;
+			productInstallPath = "$(HOME)/bin";
+			productName = GPUParticleSystem;
+			productReference = 8DD76F6C0486A84900D96B5E /* GPUParticleSystem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "GPUParticleSystem" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* GPUParticleSystem */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* GPUParticleSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				61446CD312DB46FC00B06CC8 /* OpenCLObject.cpp in Sources */,
+				61446CF212DB672700B06CC8 /* OpenGLUtils.cpp in Sources */,
+				61446CF712DBBD2D00B06CC8 /* gravityParticles.cl in Sources */,
+				6109F16212F58D8A00835F59 /* CL_MainObject.cpp in Sources */,
+				6109F1E712F5B4A200835F59 /* CL_EvenOddMergeSort.cpp in Sources */,
+				6109F1FD12F5BFCD00835F59 /* CL_Utils.cpp in Sources */,
+				6109F22A12F5C1F000835F59 /* CL_ProgramObject.cpp in Sources */,
+				6109F23712F5C62400835F59 /* evenOddMergeSort.cl in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = GPUParticleSystem;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = GPUParticleSystem;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "GPUParticleSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "GPUParticleSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
