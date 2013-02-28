@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */;
+		activeTarget = 8DD76F620486A84900D96B5E /* GPUParticleSystem */;
+		codeSenseManager = BB13B3C2143DAD56008C1EAA /* Code sense */;
+		executables = (
+			BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 339586388;
+			PBXWorkspaceStateSaveDate = 339586388;
+		};
+		perUserProjectItems = {
+			BB13B3C4143DAD9F008C1EAA /* PBXBookmark */ = BB13B3C4143DAD9F008C1EAA /* PBXBookmark */;
+			BB13B3D3143DC0E4008C1EAA /* PBXTextBookmark */ = BB13B3D3143DC0E4008C1EAA /* PBXTextBookmark */;
+			BB13B3D4143DC0E4008C1EAA /* PBXBookmark */ = BB13B3D4143DC0E4008C1EAA /* PBXBookmark */;
+			BB13B3D5143DC0E4008C1EAA /* PBXTextBookmark */ = BB13B3D5143DC0E4008C1EAA /* PBXTextBookmark */;
+			BB13B3D8143DC0E4008C1EAA /* PBXTextBookmark */ = BB13B3D8143DC0E4008C1EAA /* PBXTextBookmark */;
+		};
+		sourceControlManager = BB13B3C1143DAD56008C1EAA /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {754, 3887}}";
+			sepNavSelRange = "{2784, 0}";
+			sepNavVisRange = "{395, 709}";
+			sepNavWindowFrame = "{{48, 331}, {813, 447}}";
+		};
+	};
+	61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 5291}}";
+			sepNavSelRange = "{16099, 0}";
+			sepNavVisRange = "{15724, 1053}";
+			sepNavWindowFrame = "{{129, 225}, {813, 447}}";
+		};
+	};
+	61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 7657}}";
+			sepNavSelRange = "{18061, 0}";
+			sepNavVisRange = "{0, 499}";
+			sepNavWindowFrame = "{{181, 105}, {813, 447}}";
+		};
+	};
+	8DD76F620486A84900D96B5E /* GPUParticleSystem */ = {
+		activeExec = 0;
+		executables = (
+			BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */,
+		);
+	};
+	BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = GPUParticleSystem;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	BB13B3C1143DAD56008C1EAA /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	BB13B3C2143DAD56008C1EAA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BB13B3C4143DAD9F008C1EAA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */;
+	};
+	BB13B3D3143DC0E4008C1EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */;
+		name = "OpenCLObject.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 354;
+		vrLoc = 0;
+	};
+	BB13B3D4143DC0E4008C1EAA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */;
+	};
+	BB13B3D5143DC0E4008C1EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */;
+		name = "gravityParticles.cl: 565";
+		rLen = 0;
+		rLoc = 18061;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 0;
+	};
+	BB13B3D8143DC0E4008C1EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */;
+		name = "OpenCLObject.cpp: 395";
+		rLen = 0;
+		rLoc = 16099;
+		rType = 0;
+		vrLen = 1053;
+		vrLoc = 15724;
+	};
+}

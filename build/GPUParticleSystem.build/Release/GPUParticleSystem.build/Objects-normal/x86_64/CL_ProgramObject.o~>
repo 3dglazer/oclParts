@@ -1,0 +1,2 @@
+/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':
+/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp:67: warning: NULL used in arithmetic
