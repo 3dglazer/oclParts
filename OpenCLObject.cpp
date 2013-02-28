@@ -2,7 +2,12 @@
  *  OpenCLObject.cpp
  *  GPUParticleSystem
  *
+<<<<<<< HEAD
  * Created by Zdenek Glazer on 1/30/11.
+=======
+ *  Created by System Administrator on 1/10/11.
+ *  Copyright 2011 __MyCompanyName__. All rights reserved.
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
  *
  */
 
@@ -22,6 +27,7 @@
 
 #define EOL "\n"
 using namespace std;
+<<<<<<< HEAD
 
 void pfn_notify(const char *errinfo, const void *private_info, size_t cb, void *user_data)
 {
@@ -29,6 +35,8 @@ void pfn_notify(const char *errinfo, const void *private_info, size_t cb, void *
 }
 
 
+=======
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 OpenCLObject::OpenCLObject()
 {
 	cout << "Aguire OpeCL platform"<<EOL;
@@ -39,7 +47,10 @@ OpenCLObject::OpenCLObject()
 	cout << "Aguire OpeCL device"<<EOL;
 	// 2. Get the devices
 	err = clGetDeviceIDs(platformID, CL_DEVICE_TYPE_GPU, 1, &deviceID, NULL);
+<<<<<<< HEAD
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
+=======
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	checkError();
 	
 	// 3. Create shared context context, beware osx specific code, this one works only on MAC OSX
@@ -52,16 +63,24 @@ OpenCLObject::OpenCLObject()
 	//gpuContext = clCreateContext(props, 1, *deviceID, NULL, NULL,&err);
 	//misto clLogMessages muzu zkusit null 
 	cout << "Creating OpenCL context";
+<<<<<<< HEAD
 	gpuContext = clCreateContext(props, 0, 0,pfn_notify, NULL, &err);
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
+=======
+	gpuContext = clCreateContext(props, 0, 0,clLogMessagesToStdoutAPPLE, NULL, &err);
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
     checkError();
 	
 	cout << "Creating OpenCL commandQue";
 	// 4. Create a command-queue
 	commandQueue = clCreateCommandQueue(gpuContext, deviceID, 0, &err);
+<<<<<<< HEAD
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
 	checkError();
 	checkCommandQueue();
+=======
+	checkError();
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	
 	cout << "Ocl init done";
 }
@@ -90,10 +109,13 @@ OpenCLObject::~OpenCLObject()
 	exit (0);
 }
 
+<<<<<<< HEAD
 void OpenCLObject::updateKernelArgs(){
 
 }
 
+=======
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 void OpenCLObject::setupFields(){
 	
 	Fd_uniform fdUniform;
@@ -105,8 +127,13 @@ void OpenCLObject::setupFields(){
 	
 	
 	//seting uniform force field
+<<<<<<< HEAD
 	fdUniform.position=Vec4(0.0,0.0,0.0,0);
 	fdUniform.magnitude=0.01;
+=======
+	fdUniform.position=Vec4(0.0,0.0,0.0,1);
+	fdUniform.magnitude=0.0;
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	fdUniform.direction=Vec4(.1,.5,1.0,0);
 	
 	/*
@@ -131,6 +158,7 @@ void OpenCLObject::setupFields(){
 	 */
 	
 	//seting radial force field
+<<<<<<< HEAD
 	fdRadial[0].position=Vec4(2.,10.5,-.5,1);
 	fdRadial[0].magnitude=0.1;
 	fdRadial[0].maxDistance=100;
@@ -201,6 +229,58 @@ void OpenCLObject::setupFields(){
 }
 
 
+=======
+	fdRadial[0].position=Vec4(.5,.5,-.5,1);
+	fdRadial[0].magnitude=0.2;
+	fdRadial[0].maxDistance=3;
+	
+	fdRadial[1].position=Vec4(-.5,.5,.5,2);
+	fdRadial[1].magnitude=-0.2;
+	fdRadial[1].maxDistance=3;
+	
+	//seting drag force field Nefunguje!!!
+	fdDrag.position=Vec4(0,0,0,2);
+	fdDrag.direction=Vec4(0,0,0,0);
+	fdDrag.magnitude=0.1;
+	fdDrag.speedAttenuation=0.1;
+	//seting vortex
+	fdVortex.position=Vec4(.0,0,0,1); //attenuation in w
+	fdVortex.magnitude=0.2;
+	fdVortex.axis=Vec4(0,0,1,0);//max distance in w
+	//seting turbulence
+	fdTurbulence.position=Vec4(.0,0,0,2);
+	fdTurbulence.phase=Vec4(.0,0,0,0);
+	fdTurbulence.magnitude=0.5;
+	//fdTurbulence.frequency=0.5;
+	fdTurbulence.frequency=4;
+	fdTurbulence.noiseRatio=0.5;
+	fdTurbulence.noiseLevel=1;
+	
+	fd_uniforms=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, sizeof(Fd_uniform), NULL, &err);
+	fd_drags=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, sizeof(Fd_drag), NULL, &err);
+	fd_radials=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, sizeof(Fd_radial)*2, NULL, &err);
+	fd_vortices=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, sizeof(Fd_vortex), NULL, &err);
+	fd_turbulences=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, sizeof(Fd_turbulence), NULL, &err);
+	fd_newtons=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, sizeof(Fd_newton), NULL, &err);
+	
+	err = clEnqueueWriteBuffer(commandQueue, fd_uniforms, CL_TRUE, 0, sizeof(Fd_uniform), &fdUniform, 0, NULL, NULL);
+	err = clEnqueueWriteBuffer(commandQueue, fd_drags, CL_TRUE, 0, sizeof(Fd_drag), &fdDrag, 0, NULL, NULL);
+	err = clEnqueueWriteBuffer(commandQueue, fd_radials, CL_TRUE, 0, sizeof(Fd_radial)*2, &fdRadial, 0, NULL, NULL);
+	err = clEnqueueWriteBuffer(commandQueue, fd_vortices, CL_TRUE, 0, sizeof(Fd_vortex), &fdVortex, 0, NULL, NULL);
+	err = clEnqueueWriteBuffer(commandQueue, fd_turbulences, CL_TRUE, 0, sizeof(Fd_turbulence), &fdTurbulence, 0, NULL, NULL);
+	err = clEnqueueWriteBuffer(commandQueue, fd_newtons, CL_TRUE, 0, sizeof(Fd_newton), &fdNewton, 0, NULL, NULL);
+	
+	err=clSetKernelArg(kernelObject, 7, sizeof(cl_mem), (void*)&fd_uniforms);
+	err=clSetKernelArg(kernelObject, 8, sizeof(cl_mem), (void*)&fd_drags);
+	err=clSetKernelArg(kernelObject, 9, sizeof(cl_mem), (void*)&fd_radials);
+	err=clSetKernelArg(kernelObject, 10, sizeof(cl_mem), (void*)&fd_vortices);
+	err=clSetKernelArg(kernelObject, 11, sizeof(cl_mem), (void*)&fd_turbulences);
+	err=clSetKernelArg(kernelObject, 12, sizeof(cl_mem), (void*)&fd_newtons);
+	
+	
+}
+
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 void OpenCLObject::checkError(){
 	if (err != CL_SUCCESS) { 
 		cout<<endl<<print_cl_errstring(err)<<endl; 
@@ -248,12 +328,18 @@ void OpenCLObject::loadData(std::vector<Vec4> pos, std::vector<Vec4> vel, std::v
 	//store the number of particles and the size in bytes of our arrays
     num = pos.size();
 	
+<<<<<<< HEAD
 	localWorkSize = 128;
 	cout<<"\nlocal worksize ";
 	cout << localWorkSize;
 	cout << "\nglobal work size ";
 	globalWorkSize = localWorkSize * ((int)((num+localWorkSize-1)/localWorkSize));
 	cout << globalWorkSize;
+=======
+	localWorkSize = 256;
+	globalWorkSize = localWorkSize * ((int)((num+localWorkSize-1)/localWorkSize));
+	
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
     array_size = num * sizeof(Vec4);
     //we have to create vertex buffer objects, for that we use utility from OpenGLUtils.h
     position_vbo = createVBO(&pos[0], array_size, GL_ARRAY_BUFFER, GL_DYNAMIC_DRAW);
@@ -265,6 +351,7 @@ void OpenCLObject::loadData(std::vector<Vec4> pos, std::vector<Vec4> vel, std::v
 	cout << "creating OpenGL vertex buffer objects"<<EOL;
 	// create OpenCL buffer from GL VBO
     cl_pos_vbo=(clCreateFromGLBuffer(gpuContext,CL_MEM_READ_WRITE,position_vbo, &err));
+<<<<<<< HEAD
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
 	checkError();
     //printf("v_vbo: %s\n", oclErrorString(err));
@@ -280,6 +367,16 @@ void OpenCLObject::loadData(std::vector<Vec4> pos, std::vector<Vec4> vel, std::v
 	cl_vel_buffer=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, array_size, NULL, &err);; //particle velocity buffer
 	checkError();
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
+=======
+    //printf("v_vbo: %s\n", oclErrorString(err));
+    cl_col_vbo=(clCreateFromGLBuffer(gpuContext,CL_MEM_READ_WRITE,color_vbo, &err));
+	
+	//Create OpenCL Buffers, these can be accessed from the kernel code.
+	cl_initialVelocities=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, array_size, NULL, &err); //initialvelocities
+	cl_pos_buffer=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, array_size, NULL, &err);; //particle position buffer
+	cl_vel_buffer=clCreateBuffer(gpuContext, CL_MEM_READ_ONLY, array_size, NULL, &err);; //particle velocity buffer
+	
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
   	cout << "writing cpu data to gpu"<<EOL;
     //push our CPU arrays to the GPU
     //data is tightly packed in std::vector starting with the adress of the first element
@@ -315,6 +412,7 @@ void OpenCLObject::loadData(std::vector<Vec4> pos, std::vector<Vec4> vel, std::v
 	//for (int i=0; i<array_size/4; i++) {
 		//cout << (float)vel[i].x<<" "<<(float)vel[i].y<<" "<<(float)vel[i].z<<" "<<(float)vel[i].w<<" ";
 	//}
+<<<<<<< HEAD
 	/*
 	CL_EvenOddMergeSort sort (cm);
 	sort.sortFloats( cl_initialVelocities, 1024);
@@ -333,6 +431,24 @@ void OpenCLObject::loadData(std::vector<Vec4> pos, std::vector<Vec4> vel, std::v
 	
 	cout << "\n\n\n======= checking queue after write buffers! =====";
 	checkCommandQueue();
+=======
+	
+//	CL_EvenOddMergeSort sort (cm);
+//	sort.sortFloats( cl_initialVelocities, 1024);
+//	float* test=new float[array_size ];
+//	for (int i=0; i<array_size; i++) {
+//		test[i] = 0;    // Initialize all elements to zero.
+//	}
+//	clEnqueueReadBuffer(commandQueue, cl_initialVelocities, CL_TRUE, 0, array_size, test, 0, NULL, NULL);
+//	cout << "after sort:"<<"/n";
+//	for (int i=0; i<array_size; i++) {
+//		//cout<<test[i]<<" ";
+//		//cout << (float)vel[i].x<<" "<<(float)vel[i].y<<" "<<(float)vel[i].z<<" "<<(float)vel[i].w<<" ";
+//	}
+//	
+//	cout << "Horray";
+	
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	
 	//OpenGL Context and OpenCL context must be synchronized that means, I have to take care about finishing them properly.
     clFinish(commandQueue);
@@ -404,6 +520,7 @@ void OpenCLObject::initKernel(){
 	checkError();
 	cout << "seting arguments"<<endl;
 	err=clSetKernelArg(kernelObject, 0, sizeof(cl_mem), (void*)&cl_pos_vbo);
+<<<<<<< HEAD
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
 	err=clSetKernelArg(kernelObject, 1, sizeof(cl_mem), (void*)&cl_col_vbo);
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
@@ -426,11 +543,19 @@ void OpenCLObject::initKernel(){
 	//fprintf(stderr, "line %d",__LINE__);
 	checkCommandQueue();
 	checkError();
+=======
+	err=clSetKernelArg(kernelObject, 1, sizeof(cl_mem), (void*)&cl_col_vbo);
+	err=clSetKernelArg(kernelObject, 2, sizeof(cl_mem), (void*)&cl_vel_buffer);
+	err=clSetKernelArg(kernelObject, 3, sizeof(cl_mem), (void*)&cl_pos_buffer);
+	err=clSetKernelArg(kernelObject, 4, sizeof(cl_mem), (void*)&cl_initialVelocities);
+	
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	//now i will setup fields that affect particles
 	setupFields();
 	
 	checkError();
 	//Wait for the command queue to finish these commands before proceeding
+<<<<<<< HEAD
 	checkCommandQueue();
 	clFinish(commandQueue);
 	
@@ -442,22 +567,35 @@ void OpenCLObject::checkCommandQueue(){
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
 	checkError();
 }
+=======
+	clFinish(commandQueue);
+	cout << "Arguments were succesfully set"<<endl;
+	}
+	
+	
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	
 void OpenCLObject::runKernel(){
 	//this will update our system by calculating new velocity and updating the positions of our particles
 	//Make sure OpenGL is done using our VBOs
 	//cout << "running kernel";
+<<<<<<< HEAD
 	//printf("\nbefore glFinish()\n");
 	//checkCommandQueue();
 	glFinish();
 	//printf("\ngl finishing and checking commandqueue.\n");
 	//fprintf(stderr, "line %d",__LINE__);
 	//checkCommandQueue();
+=======
+	glFinish();
+	
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	
 	
 	
 	// map OpenGL buffer object for writing from OpenCL
 	//this passes in the vector of VBO buffer objects (position and color)
+<<<<<<< HEAD
 	//fprintf(stderr, "line %d: err %d\n", __LINE__, err);
 	err=clEnqueueAcquireGLObjects(commandQueue, 1, &cl_col_vbo, NULL, NULL, &event);
 	//fprintf(stderr, "line %d",__LINE__);
@@ -504,5 +642,25 @@ void OpenCLObject::runKernel(){
 	//checkCommandQueue();
 	clFinish(commandQueue);
 	frameNum++;
+=======
+	clEnqueueAcquireGLObjects(commandQueue, 1, &cl_pos_vbo, NULL, NULL, &event);
+	clEnqueueAcquireGLObjects(commandQueue, 1, &cl_col_vbo, NULL, NULL, &event);
+	//clWaitForEvents(1, &event);
+	//cout << "vbos acquired from GL vbos";
+	float dt = .01f;
+	int nParts=num;
+	err=clSetKernelArg(kernelObject, 5, sizeof(cl_float), &dt);
+	err=clSetKernelArg(kernelObject, 6, sizeof(cl_int), &nParts);
+	checkError();
+	//execute the kernel
+	//cout << "kernel is going to be executed";
+	clEnqueueNDRangeKernel(commandQueue, kernelObject, 1, NULL,  &globalWorkSize, &localWorkSize, 0, NULL, &event);
+	//clFinish(commandQueue);
+	//cout << "Going to release vbos from CL";
+	//Release the VBOs so OpenGL can play with them
+	clEnqueueReleaseGLObjects(commandQueue, 1, &cl_pos_vbo, NULL, NULL, &event);
+	clEnqueueReleaseGLObjects(commandQueue, 1, &cl_col_vbo, NULL, NULL, &event);
+	clFinish(commandQueue);
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	//cout << "vbos are again OpenGL's";
 }

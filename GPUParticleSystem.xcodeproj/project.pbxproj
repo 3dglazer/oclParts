@@ -17,6 +17,10 @@
 		61446CC212DB3E5F00B06CC8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61446CC112DB3E5F00B06CC8 /* OpenGL.framework */; };
 		61446CD312DB46FC00B06CC8 /* OpenCLObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */; };
 		61446CF212DB672700B06CC8 /* OpenGLUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61446CF012DB672700B06CC8 /* OpenGLUtils.cpp */; };
+<<<<<<< HEAD
+=======
+		61446CF712DBBD2D00B06CC8 /* gravityParticles.cl in Sources */ = {isa = PBXBuildFile; fileRef = 61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */; };
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
 		8DD76F6A0486A84900D96B5E /* GPUParticleSystem.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859E8B029090EE04C91782 /* GPUParticleSystem.1 */; };
 /* End PBXBuildFile section */
@@ -53,9 +57,15 @@
 		61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCLObject.cpp; sourceTree = "<group>"; };
 		61446CF012DB672700B06CC8 /* OpenGLUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenGLUtils.cpp; sourceTree = "<group>"; };
 		61446CF112DB672700B06CC8 /* OpenGLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLUtils.h; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		8DD76F6C0486A84900D96B5E /* GPUParticleSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPUParticleSystem; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6859E8B029090EE04C91782 /* GPUParticleSystem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GPUParticleSystem.1; sourceTree = "<group>"; };
 		D9BEB16816DEA6070044FAE7 /* bislogon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bislogon.h; sourceTree = "<group>"; };
+=======
+		61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.opencl; path = gravityParticles.cl; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* GPUParticleSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GPUParticleSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859E8B029090EE04C91782 /* GPUParticleSystem.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = GPUParticleSystem.1; sourceTree = "<group>"; };
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,13 +98,20 @@
 		08FB7795FE84155DC02AAC07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				D9BEB16816DEA6070044FAE7 /* bislogon.h */,
+=======
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 				6109F2F912F5D5E000835F59 /* CL_Kernels */,
 				61446CF012DB672700B06CC8 /* OpenGLUtils.cpp */,
 				61446CF112DB672700B06CC8 /* OpenGLUtils.h */,
 				08FB7796FE84155DC02AAC07 /* main.cpp */,
 				61446CD112DB46FC00B06CC8 /* OpenCLObject.h */,
 				61446CD212DB46FC00B06CC8 /* OpenCLObject.cpp */,
+<<<<<<< HEAD
+=======
+				61446CF612DBBD2D00B06CC8 /* gravityParticles.cl */,
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 				6109F16012F58D8A00835F59 /* CL_MainObject.h */,
 				6109F16112F58D8A00835F59 /* CL_MainObject.cpp */,
 				6109F1E512F5B4A200835F59 /* CL_EvenOddMergeSort.h */,
@@ -185,6 +202,10 @@
 				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
 				61446CD312DB46FC00B06CC8 /* OpenCLObject.cpp in Sources */,
 				61446CF212DB672700B06CC8 /* OpenGLUtils.cpp in Sources */,
+<<<<<<< HEAD
+=======
+				61446CF712DBBD2D00B06CC8 /* gravityParticles.cl in Sources */,
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 				6109F16212F58D8A00835F59 /* CL_MainObject.cpp in Sources */,
 				6109F1E712F5B4A200835F59 /* CL_EvenOddMergeSort.cpp in Sources */,
 				6109F1FD12F5BFCD00835F59 /* CL_Utils.cpp in Sources */,

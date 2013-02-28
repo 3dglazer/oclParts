@@ -178,7 +178,11 @@
 	<key>FavBarConfig</key>
 	<dict>
 		<key>PBXProjectModuleGUID</key>
+<<<<<<< HEAD
 		<string>BB13B3B4143DAD56008C1EAA</string>
+=======
+		<string>BB13B376143DABB4008C1EAA</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		<key>XCBarModuleItemNames</key>
 		<dict/>
 		<key>XCBarModuleItems</key>
@@ -202,14 +206,21 @@
 			<key>Content</key>
 			<dict>
 				<key>PBXProjectModuleGUID</key>
+<<<<<<< HEAD
 				<string>BB13B3D6143DC0E4008C1EAA</string>
 				<key>PBXProjectModuleLabel</key>
 				<string>OpenCLObject.cpp</string>
+=======
+				<string>BB13B3A0143DAD32008C1EAA</string>
+				<key>PBXProjectModuleLabel</key>
+				<string>main.cpp</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 				<key>PBXSplitModuleInNavigatorKey</key>
 				<dict>
 					<key>Split0</key>
 					<dict>
 						<key>PBXProjectModuleGUID</key>
+<<<<<<< HEAD
 						<string>BB13B3D7143DC0E4008C1EAA</string>
 						<key>PBXProjectModuleLabel</key>
 						<string>OpenCLObject.cpp</string>
@@ -220,6 +231,18 @@
 						<key>history</key>
 						<array>
 							<string>BB13B3C4143DAD9F008C1EAA</string>
+=======
+						<string>BB13B3A1143DAD32008C1EAA</string>
+						<key>PBXProjectModuleLabel</key>
+						<string>main.cpp</string>
+						<key>_historyCapacity</key>
+						<integer>0</integer>
+						<key>bookmark</key>
+						<string>BB13B3A2143DAD32008C1EAA</string>
+						<key>history</key>
+						<array>
+							<string>BB13B385143DABDC008C1EAA</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 						</array>
 					</dict>
 					<key>SplitCount</key>
@@ -235,7 +258,11 @@
 				<key>PBXModuleWindowStatusBarHidden2</key>
 				<false/>
 				<key>RubberWindowFrame</key>
+<<<<<<< HEAD
 				<string>129 281 813 391 0 0 1280 778 </string>
+=======
+				<string>15 382 813 391 0 0 1280 778 </string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 			</dict>
 		</dict>
 	</array>
@@ -344,14 +371,21 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+<<<<<<< HEAD
 							<key>BecomeActive</key>
 							<true/>
+=======
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
+<<<<<<< HEAD
 								<string>gravityParticles.cl</string>
+=======
+								<string>MyNewFile14.java</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -359,6 +393,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
+<<<<<<< HEAD
 										<string>gravityParticles.cl</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
@@ -369,6 +404,9 @@
 											<string>BB13B3D3143DC0E4008C1EAA</string>
 											<string>BB13B3D4143DC0E4008C1EAA</string>
 										</array>
+=======
+										<string>MyNewFile14.java</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -389,6 +427,11 @@
 							<string>277pt</string>
 						</dict>
 						<dict>
+<<<<<<< HEAD
+=======
+							<key>BecomeActive</key>
+							<true/>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -425,9 +468,15 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
+<<<<<<< HEAD
 				<string>BB13B3B2143DAD56008C1EAA</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
 				<string>BB13B3B3143DAD56008C1EAA</string>
+=======
+				<string>BB13B374143DABB4008C1EAA</string>
+				<string>1CE0B1FE06471DED0097A5F4</string>
+				<string>BB13B375143DABB4008C1EAA</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -565,11 +614,21 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+<<<<<<< HEAD
 		<string>BB13B3BF143DAD56008C1EAA</string>
 		<string>BB13B3C0143DAD56008C1EAA</string>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>BB13B3B5143DAD56008C1EAA</string>
+=======
+		<string>BB13B381143DABB4008C1EAA</string>
+		<string>BB13B382143DABB4008C1EAA</string>
+		<string>1CD10A99069EF8BA00B06720</string>
+		<string>BB13B377143DABB4008C1EAA</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>BB13B3A0143DAD32008C1EAA</string>
+		<string>/myPrograms/GPUParticleSystem/GPUParticleSystem.xcodeproj</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	</array>
 	<key>WindowString</key>
 	<string>246 220 788 504 0 0 1280 778 </string>
@@ -648,8 +707,13 @@
 			<true/>
 			<key>TableOfContents</key>
 			<array>
+<<<<<<< HEAD
 				<string>BB13B3B5143DAD56008C1EAA</string>
 				<string>BB13B3B6143DAD56008C1EAA</string>
+=======
+				<string>BB13B377143DABB4008C1EAA</string>
+				<string>BB13B378143DABB4008C1EAA</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
@@ -660,7 +724,11 @@
 			<key>WindowString</key>
 			<string>267 201 500 500 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
+<<<<<<< HEAD
 			<string>BB13B3B5143DAD56008C1EAA</string>
+=======
+			<string>BB13B377143DABB4008C1EAA</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 			<key>WindowToolIsVisible</key>
 			<false/>
 		</dict>
@@ -771,6 +839,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
+<<<<<<< HEAD
 				<string>BB13B3B7143DAD56008C1EAA</string>
 				<string>1C162984064C10D400B95A72</string>
 				<string>BB13B3B8143DAD56008C1EAA</string>
@@ -778,6 +847,15 @@
 				<string>BB13B3BA143DAD56008C1EAA</string>
 				<string>BB13B3BB143DAD56008C1EAA</string>
 				<string>BB13B3BC143DAD56008C1EAA</string>
+=======
+				<string>BB13B379143DABB4008C1EAA</string>
+				<string>1C162984064C10D400B95A72</string>
+				<string>BB13B37A143DABB4008C1EAA</string>
+				<string>BB13B37B143DABB4008C1EAA</string>
+				<string>BB13B37C143DABB4008C1EAA</string>
+				<string>BB13B37D143DABB4008C1EAA</string>
+				<string>BB13B37E143DABB4008C1EAA</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -941,7 +1019,11 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
+<<<<<<< HEAD
 				<string>BB13B3BD143DAD56008C1EAA</string>
+=======
+				<string>BB13B37F143DABB4008C1EAA</string>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -951,7 +1033,11 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
+<<<<<<< HEAD
 			<false/>
+=======
+			<true/>
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		</dict>
 		<dict>
 			<key>Identifier</key>

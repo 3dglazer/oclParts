@@ -1,6 +1,7 @@
 TGPUParticleSystem
 v7
 r0
+<<<<<<< HEAD
 t383697681.545471
 cCheck dependencies
 cCompileC build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/main.o "/myPrograms/GPUParticleSystem 2/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
@@ -533,6 +534,59 @@ lSLF07#2@48"Compile /myPrograms/GPUParticleSystem 2/main.cpp383697679#383697680#
 CCompileC build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/main.o /myPrograms/GPUParticleSystem/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
 s319380729.672364
 e319380730.395195
+=======
+t316358249.345956
+cCheck dependencies
+cCompileC build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/main.o /myPrograms/GPUParticleSystem/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd /myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C8E8DE700000000000000EE
+t1284410855
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/GLUT.framework/GLUT
+c000000004C5342AC000000000001A494
+t1280524972
+s107668
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenCL.framework/OpenCL
+c000000004C5342AC000000000000A1FC
+t1280524972
+s41468
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c000000004C5342AD000000000000DB14
+t1280524973
+s56084
+
+N/myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem
+t1294665449
+s10568
+
+N/myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem.LinkFileList
+c000000004D2B06E80000000000000077
+t1294665448
+s119
+
+N/myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/main.o
+t1294665448
+s66960
+
+N/myPrograms/GPUParticleSystem/main.cpp
+c000000004D2B06AD000000000000008F
+t1294665389
+s143
+i<iostream>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316358248#316358248#0(0"0(0#1#0"31525334837231728#0"0#
+
+CCompileC build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/main.o /myPrograms/GPUParticleSystem/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s316358248.290904
+e316358248.963426
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/main.o
@@ -541,6 +595,7 @@ xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
+<<<<<<< HEAD
 o/myPrograms/GPUParticleSystem/main.cpp: In function 'int main(int, char**)':
 o/myPrograms/GPUParticleSystem/main.cpp:117: warning: unused variable 'rndy'
 o/myPrograms/GPUParticleSystem/main.cpp:118: warning: unused variable 'rndz'
@@ -559,10 +614,21 @@ lSLF07#2@66"Link /myPrograms/GPUParticleSystem 2/build/Debug/GPUParticleSystem38
 CLd /myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem normal x86_64
 s319380730.395284
 e319380730.421115
+=======
+lSLF07#2@46"Compile /myPrograms/GPUParticleSystem/main.cpp316358248#316358248#0(0"0(0#0#38"/myPrograms/GPUParticleSystem/main.cpp8098367606691556352#1372"    cd /myPrograms/GPUParticleSystem    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystem/build/Debug -I/myPrograms/GPUParticleSystem/build/Debug/include -I/myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystem/main.cpp -o /myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/main.o0#
+
+CLd /myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem normal x86_64
+s316358248.963521
+e316358249.345887
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 r1
 xLd
 x/myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem
 xnormal
 xx86_64
+<<<<<<< HEAD
 lSLF07#2@64"Link /myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem319380730#319380730#0(0"0(0#0#0"8607470752#545"    cd /myPrograms/GPUParticleSystem    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/GPUParticleSystem/build/Debug -F/myPrograms/GPUParticleSystem/build/Debug -filelist /myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem.LinkFileList -mmacosx-version-min=10.6 -framework GLUT -framework OpenCL -framework OpenGL -o /myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem0#
+=======
+lSLF07#2@64"Link /myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem316358248#316358249#0(0"0(0#0#0"8604960864#545"    cd /myPrograms/GPUParticleSystem    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/GPUParticleSystem/build/Debug -F/myPrograms/GPUParticleSystem/build/Debug -filelist /myPrograms/GPUParticleSystem/build/GPUParticleSystem.build/Debug/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem.LinkFileList -mmacosx-version-min=10.6 -framework GLUT -framework OpenCL -framework OpenGL -o /myPrograms/GPUParticleSystem/build/Debug/GPUParticleSystem0#
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 

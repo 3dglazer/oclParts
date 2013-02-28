@@ -2,15 +2,25 @@
  *  OpenCLObject.h
  *  GPUParticleSystem
  *
+<<<<<<< HEAD
  *  Created by Zdenek Glazer on 1/10/11.
+=======
+ *  Created by System Administrator on 1/10/11.
+ *  Copyright 2011 __MyCompanyName__. All rights reserved.
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
  *
  */
 
 #ifndef CL_OPENCLOBJECT_H
 #define CL_OPENCLOBJECT_H
 #include <OpenCL/OpenCL.h>
+<<<<<<< HEAD
 
 #include <vector>
+=======
+#include <vector>
+
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 // issue with using cl_float4 from cl_platform.h
 // http://www.khronos.org/message_boards/viewtopic.php?f=28&t=1848
 
@@ -114,7 +124,11 @@ private:
 	
 	cl_program programObject;
 	size_t programLength; //loaded program length
+<<<<<<< HEAD
 	cl_kernel  kernelObject;
+=======
+	cl_kernel kernelObject;
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	
 	cl_int err; //error codes
 	cl_event  event;
@@ -125,7 +139,10 @@ private:
 	//for debug purpouses
 	char* print_cl_errstring(cl_int err);
 	void setupFields();
+<<<<<<< HEAD
 	long long frameNum;
+=======
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 public:
 	//these variables are aplication dependent, can't be reused in other implementations
 	//--------aplication dependent--------------
@@ -159,8 +176,12 @@ public:
 	void loadProgramSource(const char* cFilename);
 	//execute the kernel
 	void runKernel();
+<<<<<<< HEAD
 	void checkCommandQueue();
 	void updateKernelArgs();
+=======
+	
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	//constructor
 	OpenCLObject();
 	//destructor

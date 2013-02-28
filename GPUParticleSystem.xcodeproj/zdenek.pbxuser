@@ -2,11 +2,19 @@
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
+<<<<<<< HEAD
 		activeExecutable = BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */;
 		activeTarget = 8DD76F620486A84900D96B5E /* GPUParticleSystem */;
 		codeSenseManager = BB13B3C2143DAD56008C1EAA /* Code sense */;
 		executables = (
 			BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */,
+=======
+		activeExecutable = BB13B368143DABAC008C1EAA /* GPUParticleSystem */;
+		activeTarget = 8DD76F620486A84900D96B5E /* GPUParticleSystem */;
+		codeSenseManager = BB13B384143DABB4008C1EAA /* Code sense */;
+		executables = (
+			BB13B368143DABAC008C1EAA /* GPUParticleSystem */,
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -31,6 +39,7 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+<<<<<<< HEAD
 			PBXPerProjectTemplateStateSaveDate = 339586388;
 			PBXWorkspaceStateSaveDate = 339586388;
 		};
@@ -42,11 +51,22 @@
 			BB13B3D8143DC0E4008C1EAA /* PBXTextBookmark */ = BB13B3D8143DC0E4008C1EAA /* PBXTextBookmark */;
 		};
 		sourceControlManager = BB13B3C1143DAD56008C1EAA /* Source Control */;
+=======
+			PBXPerProjectTemplateStateSaveDate = 339585964;
+			PBXWorkspaceStateSaveDate = 339585964;
+		};
+		perUserProjectItems = {
+			BB13B385143DABDC008C1EAA /* PBXBookmark */ = BB13B385143DABDC008C1EAA /* PBXBookmark */;
+			BB13B3A2143DAD32008C1EAA /* PBXTextBookmark */ = BB13B3A2143DAD32008C1EAA /* PBXTextBookmark */;
+		};
+		sourceControlManager = BB13B383143DABB4008C1EAA /* Source Control */;
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		userBuildSettings = {
 		};
 	};
 	08FB7796FE84155DC02AAC07 /* main.cpp */ = {
 		uiCtxt = {
+<<<<<<< HEAD
 			sepNavIntBoundsRect = "{{0, 0}, {754, 3887}}";
 			sepNavSelRange = "{2784, 0}";
 			sepNavVisRange = "{395, 709}";
@@ -67,15 +87,28 @@
 			sepNavSelRange = "{18061, 0}";
 			sepNavVisRange = "{0, 499}";
 			sepNavWindowFrame = "{{181, 105}, {813, 447}}";
+=======
+			sepNavIntBoundsRect = "{{0, 0}, {754, 4017}}";
+			sepNavSelRange = "{347, 0}";
+			sepNavVisRange = "{1534, 883}";
+			sepNavWindowFrame = "{{15, 326}, {813, 447}}";
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		};
 	};
 	8DD76F620486A84900D96B5E /* GPUParticleSystem */ = {
 		activeExec = 0;
 		executables = (
+<<<<<<< HEAD
 			BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */,
 		);
 	};
 	BB13B3A6143DAD54008C1EAA /* GPUParticleSystem */ = {
+=======
+			BB13B368143DABAC008C1EAA /* GPUParticleSystem */,
+		);
+	};
+	BB13B368143DABAC008C1EAA /* GPUParticleSystem */ = {
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -105,7 +138,11 @@
 		sourceDirectories = (
 		);
 	};
+<<<<<<< HEAD
 	BB13B3C1143DAD56008C1EAA /* Source Control */ = {
+=======
+	BB13B383143DABB4008C1EAA /* Source Control */ = {
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 0;
@@ -115,6 +152,7 @@
 			};
 		};
 	};
+<<<<<<< HEAD
 	BB13B3C2143DAD56008C1EAA /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
@@ -156,5 +194,24 @@
 		rType = 0;
 		vrLen = 1053;
 		vrLoc = 15724;
+=======
+	BB13B384143DABB4008C1EAA /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	BB13B385143DABDC008C1EAA /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+	};
+	BB13B3A2143DAD32008C1EAA /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* main.cpp */;
+		name = "main.cpp: 19";
+		rLen = 0;
+		rLoc = 347;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 1534;
+>>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 	};
 }
