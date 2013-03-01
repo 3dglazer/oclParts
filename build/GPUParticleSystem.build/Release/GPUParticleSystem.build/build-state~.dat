@@ -1,26 +1,26 @@
 TGPUParticleSystem
 v7
 r0
-t382357900.309901
+t383822804.830103
 cCheck dependencies
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o "/myPrograms/GPUParticleSystem 2/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o "/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o "/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o "/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o "/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o "/myPrograms/GPUParticleSystem 2/CL_Utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o "/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o "/myPrograms/GPUParticleSystem 2/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cLd "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem" normal x86_64
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o "/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o "/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o "/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o "/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o "/myPrograms/GPUParticleSystem 2/CL_Utils.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o "/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-cLd "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem" normal i386
-cCreateUniversalBinary "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem" normal "x86_64 i386"
-cGenerateDSYMFile "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem.dSYM" "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem"
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o /myPrograms/GPUParticleSystemFinishing/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o /myPrograms/GPUParticleSystemFinishing/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem normal x86_64
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem normal i386
+cCreateUniversalBinary /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem normal "x86_64 i386"
+cGenerateDSYMFile /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem.dSYM /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem
 
 N/Developer/SDKs/MacOSX10.6.sdk
 c000000004D5A274300000000000000EE
@@ -72,22 +72,22 @@ c000000004BBD2CE90000000000002DF5
 t1270689001
 s11765
 
-N/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp
-c000000004D51B267000000000000191F
-t1297199719
-s6431
+N/myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp
+c000000005130518F00000000000018B1
+t1362121103
+s6321
 i"CL_Utils.h"
 i"CL_EvenOddMergeSort.h"
 
-N/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.h
-c000000004D51AB0F0000000000000514
-t1297197839
-s1300
+N/myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.h
+c00000000512FDD670000000000000583
+t1362091367
+s1411
 i"CL_Include.h"
 i"CL_MainObject.h"
 i"CL_ProgramObject.h"
 
-N/myPrograms/GPUParticleSystem 2/CL_Include.h
+N/myPrograms/GPUParticleSystemFinishing/CL_Include.h
 c000000004D45A6EC000000000000011C
 t1296410348
 s284
@@ -95,48 +95,48 @@ i<iostream>
 i<OpenCL/OpenCL.h>
 i<OpenGL/OpenGL.h>
 
-N/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp
-c000000004D51A36C00000000000009A6
-t1297195884
-s2470
+N/myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp
+c00000000513051810000000000000902
+t1362121089
+s2306
 i"CL_MainObject.h"
 
-N/myPrograms/GPUParticleSystem 2/CL_MainObject.h
-c000000004D45A7AA00000000000002F0
-t1296410538
-s752
+N/myPrograms/GPUParticleSystemFinishing/CL_MainObject.h
+c00000000512FDD67000000000000035F
+t1362091367
+s863
 i"CL_Include.h"
 
-N/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp
-c000000004D518FCD0000000000000830
-t1297190861
-s2096
+N/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp
+c000000005130516F0000000000000789
+t1362121071
+s1929
 i"CL_Utils.h"
 i"CL_ProgramObject.h"
 
-N/myPrograms/GPUParticleSystem 2/CL_ProgramObject.h
-c000000004D459CD80000000000000243
-t1296407768
-s579
+N/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.h
+c00000000512FDD6700000000000002B2
+t1362091367
+s690
 i"CL_Include.h"
 i"CL_MainObject.h"
 
-N/myPrograms/GPUParticleSystem 2/CL_Utils.cpp
-c000000004D4590DE0000000000001161
-t1296404702
-s4449
+N/myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp
+c000000005130516200000000000010C2
+t1362121058
+s4290
 i"CL_Utils.h"
 
-N/myPrograms/GPUParticleSystem 2/CL_Utils.h
-c000000004D45A7FD0000000000000104
-t1296410621
-s260
+N/myPrograms/GPUParticleSystemFinishing/CL_Utils.h
+c00000000513052160000000000000068
+t1362121238
+s104
 i"CL_Include.h"
 
-N/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp
-c00000000511A199E0000000000004337
-t1360664990
-s17207
+N/myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp
+c00000000513052770000000000003F04
+t1362121335
+s16132
 i"OpenCLObject.h"
 i"OpenGLUtils.h"
 i<stdio.h>
@@ -147,356 +147,355 @@ i<OpenCL/OpenCL.h>
 i"CL_EvenOddMergeSort.h"
 i"CL_MainObject.h"
 
-N/myPrograms/GPUParticleSystem 2/OpenCLObject.h
-c000000004D51ACDE000000000000104C
-t1297198302
-s4172
+N/myPrograms/GPUParticleSystemFinishing/OpenCLObject.h
+c00000000513052090000000000001027
+t1362121225
+s4135
 i<OpenCL/OpenCL.h>
 i<vector>
 
-N/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp
-c000000004D2B935000000000000003E5
-t1294701392
-s997
+N/myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp
+c0000000051304FB60000000000000341
+t1362120630
+s833
 i"OpenGLUtils.h"
 
-N/myPrograms/GPUParticleSystem 2/OpenGLUtils.h
-c000000004D45A7F40000000000000141
-t1296410612
-s321
+N/myPrograms/GPUParticleSystemFinishing/OpenGLUtils.h
+c00000000513051BE000000000000009E
+t1362121150
+s158
 i<OpenGL/OpenGL.h>
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o
-t1360665099
+N/myPrograms/GPUParticleSystemFinishing/bislogon.h
+c00000000512E8D430000000000414C45
+t1362005315
+s4279365
+
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o
+t1362130003
 s88168
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o
-t1360665099
-s71100
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o
+t1362130003
+s71116
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o
-t1360665100
-s75096
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o
+t1362130004
+s75108
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o
-t1360665099
-s47792
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o
+t1362130004
+s47804
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem
-t1360665100
-s48548
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem
+t1362130004
+s1225988
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem.LinkFileList
-c00000000511A1A070000000000000386
-t1360665095
-s902
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem.LinkFileList
+c000000005130744D00000000000003B7
+t1362129997
+s951
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o
-t1360665098
-s96272
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o
+t1362130002
+s96096
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o
-t1360665098
-s3176
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o
+t1362130004
+s3188
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o
-t1360665098
-s108172
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o
+t1362130004
+s1297948
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o
-t1360665097
-s92960
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o
+t1362129998
+s92992
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o
-t1360665097
-s72792
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o
+t1362129998
+s72808
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o
-t1360665097
-s76980
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o
+t1362129999
+s76988
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o
-t1360665097
-s50612
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o
+t1362129999
+s50628
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem
-t1360665097
-s54912
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem
+t1362130002
+s1228512
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem.LinkFileList
-c00000000511A1A070000000000000394
-t1360665095
-s916
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem.LinkFileList
+c000000005130744D00000000000003C5
+t1362129997
+s965
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o
-t1360665096
-s101332
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o
+t1362129997
+s100792
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o
-t1360665096
-s3544
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o
+t1362129999
+s3552
 
-N/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o
-t1360665096
-s112264
+N/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o
+t1362130001
+s1306192
 
-N/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem
-t1360665100
-s109988
+N/myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem
+t1362130004
+s2458884
 
-N/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem.dSYM
-t1360665100
+N/myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem.dSYM
+t1362130004
 s102
 
-N/myPrograms/GPUParticleSystem 2/main.cpp
-c000000004EE9C5C000000000000020A6
-t1323943360
-s8358
+N/myPrograms/GPUParticleSystemFinishing/main.cpp
+c00000000513053210000000000001F8C
+t1362121505
+s8076
 i<stdio.h>
 i<stdlib.h>
 i<sstream>
 i<iomanip>
 i<math.h>
 i<GLUT/glut.h>
-i<GL/glut.h>
+i"bislogon.h"
 i"OpenCLObject.h"
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies382357895#382357895#0(500"[WARN]warning: no rule to process file '$(PROJECT_DIR)/gravityParticles.cl' of type sourcecode.opencl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/evenOddMergeSort.cl' of type sourcecode.opencl for architecture x86_64[WARN]warning: no rule to process file '$(PROJECT_DIR)/gravityParticles.cl' of type sourcecode.opencl for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/evenOddMergeSort.cl' of type sourcecode.opencl for architecture i3864(22@119"warning: no rule to process file '$(PROJECT_DIR)/gravityParticles.cl' of type sourcecode.opencl for architecture x86_64382357895#18446744073709551615#0#0(1@0"0(22@119"warning: no rule to process file '$(PROJECT_DIR)/evenOddMergeSort.cl' of type sourcecode.opencl for architecture x86_64382357895#18446744073709551615#0#0(1@0"0(22@117"warning: no rule to process file '$(PROJECT_DIR)/gravityParticles.cl' of type sourcecode.opencl for architecture i386382357895#18446744073709551615#0#0(1@0"0(22@117"warning: no rule to process file '$(PROJECT_DIR)/evenOddMergeSort.cl' of type sourcecode.opencl for architecture i386382357895#18446744073709551615#0#0(1@0"0(0#1#0"8619916896#0"0#
+lSLF07#2@18"Check dependencies383822797#383822797#0(0"0(0#1#0"31525334837231728#0"0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o "/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s382357898.807989
-e382357899.449227
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s383822802.670500
+e383822803.201187
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o
-x/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp382357898#382357899#0(0"0(0#0#55"/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp8620436032#1476"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o"0#
+lSLF07#2@70"Compile /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp383822802#383822803#0(0"0(0#0#62"/myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp8600286400#1531"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_EvenOddMergeSort.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o "/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s382357898.802493
-e382357899.343877
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s383822803.201281
+e383822803.644669
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o
-x/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /myPrograms/GPUParticleSystem 2/CL_MainObject.cpp382357898#382357899#0(0"0(0#0#49"/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp8605105920#1464"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o"0#
+lSLF07#2@64"Compile /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp383822803#383822803#0(0"0(0#0#56"/myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp8613442944#1519"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_MainObject.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o "/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s382357899.449330
-e382357900.013040
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s383822803.644857
+e383822804.101841
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o
-x/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-o/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':
-o/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp:75: warning: NULL used in arithmetic
-lSLF07#2@60"Compile /myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp382357899#382357900#0(221"/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp:75: warning: NULL used in arithmetic1(22@23"NULL used in arithmetic382357899#131#90#0(6@52"/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp318883661#75#0#75#0#0"0(0#0#52"/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp8624262816#1470"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o"0#
+o/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':
+o/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp:67: warning: NULL used in arithmetic
+lSLF07#2@67"Compile /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp383822803#383822804#0(235"/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp:67: warning: NULL used in arithmetic1(22@23"NULL used in arithmetic383822804#138#97#0(6@59"/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp383813871#67#0#67#0#0"0(0#0#59"/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp8614593216#1525"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_ProgramObject.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o "/myPrograms/GPUParticleSystem 2/CL_Utils.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s382357899.344129
-e382357899.848922
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s383822804.101936
+e383822804.516258
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o
-x/myPrograms/GPUParticleSystem 2/CL_Utils.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /myPrograms/GPUParticleSystem 2/CL_Utils.cpp382357899#382357899#0(0"0(0#0#44"/myPrograms/GPUParticleSystem 2/CL_Utils.cpp8624459616#1454"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_Utils.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o"0#
+lSLF07#2@59"Compile /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp383822804#383822804#0(0"0(0#0#51"/myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp8599829024#1509"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/CL_Utils.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o "/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s382357897.985807
-e382357898.802389
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s383822802.046676
+e383822802.670402
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o
-x/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp
+x/myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /myPrograms/GPUParticleSystem 2/OpenCLObject.cpp382357897#382357898#0(0"0(0#0#48"/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp8619997632#1462"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o"0#
+lSLF07#2@63"Compile /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp383822802#383822802#0(0"0(0#0#55"/myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp8609265504#1517"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenCLObject.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o "/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s382357898.716964
-e382357898.807884
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s383822804.516352
+e383822804.580836
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o
-x/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp
+x/myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp382357898#382357898#0(0"0(0#0#47"/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp8602509408#1460"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o"0#
+lSLF07#2@62"Compile /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp383822804#383822804#0(0"0(0#0#54"/myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp8611233984#1515"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/OpenGLUtils.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o "/myPrograms/GPUParticleSystem 2/main.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
-s382357897.736014
-e382357898.716868
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o /myPrograms/GPUParticleSystemFinishing/main.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s383822799.776738
+e383822804.554676
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o
-x/myPrograms/GPUParticleSystem 2/main.cpp
+x/myPrograms/GPUParticleSystemFinishing/main.cpp
 xnormal
 xi386
 xc++
 xcom.apple.compilers.gcc.4_2
-o/myPrograms/GPUParticleSystem 2/main.cpp: In function 'int main(int, char**)':
-o/myPrograms/GPUParticleSystem 2/main.cpp:117: warning: unused variable 'rndy'
-o/myPrograms/GPUParticleSystem 2/main.cpp:118: warning: unused variable 'rndz'
-lSLF07#2@48"Compile /myPrograms/GPUParticleSystem 2/main.cpp382357897#382357898#0(235"/myPrograms/GPUParticleSystem 2/main.cpp: In function 'int main(int, char**)':/myPrograms/GPUParticleSystem 2/main.cpp:117: warning: unused variable 'rndy'/myPrograms/GPUParticleSystem 2/main.cpp:118: warning: unused variable 'rndz'2(22@22"Unused variable 'rndy'382357898#79#78#0(6@40"/myPrograms/GPUParticleSystem 2/main.cpp345636160#117#0#117#0#19"unused variable '*'0(22@22"Unused variable 'rndz'382357898#157#78#0(6@40"/myPrograms/GPUParticleSystem 2/main.cpp345636160#118#0#118#0#19"unused variable '*'0(0#0#40"/myPrograms/GPUParticleSystem 2/main.cpp8602657344#1446"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/main.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o"0#
+lSLF07#2@55"Compile /myPrograms/GPUParticleSystemFinishing/main.cpp383822799#383822804#0(0"0(0#0#47"/myPrograms/GPUParticleSystemFinishing/main.cpp8614827392#1501"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/i386 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/main.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/main.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o "/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s382357896.700389
-e382357897.321713
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383822797.843957
+e383822798.406063
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o
-x/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@63"Compile /myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp382357896#382357897#0(0"0(0#0#55"/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp8620684448#1482"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_EvenOddMergeSort.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o"0#
+lSLF07#2@70"Compile /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp383822797#383822798#0(0"0(0#0#62"/myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp8614588736#1537"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_EvenOddMergeSort.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_EvenOddMergeSort.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o "/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s382357896.678409
-e382357897.192507
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383822798.406158
+e383822798.834536
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o
-x/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /myPrograms/GPUParticleSystem 2/CL_MainObject.cpp382357896#382357897#0(0"0(0#0#49"/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp8623780992#1470"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_MainObject.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o"0#
+lSLF07#2@64"Compile /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp383822798#383822798#0(0"0(0#0#56"/myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp8609447328#1525"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_MainObject.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_MainObject.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o "/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s382357897.321813
-e382357897.931110
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383822798.834673
+e383822799.293914
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o
-x/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-o/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':
-o/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp:75: warning: NULL used in arithmetic
-lSLF07#2@60"Compile /myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp382357897#382357897#0(221"/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp:75: warning: NULL used in arithmetic1(22@23"NULL used in arithmetic382357897#131#90#0(6@52"/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp318883661#75#0#75#0#0"0(0#0#52"/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp8624660672#1476"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_ProgramObject.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o"0#
+o/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':
+o/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp:67: warning: NULL used in arithmetic
+lSLF07#2@67"Compile /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp383822798#383822799#0(235"/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp: In member function 'char* CL_ProgramObject::loadProgramSource(const char*)':/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp:67: warning: NULL used in arithmetic1(22@23"NULL used in arithmetic383822799#138#97#0(6@59"/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp383813871#67#0#67#0#0"0(0#0#59"/myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp8614382688#1531"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_ProgramObject.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_ProgramObject.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o "/myPrograms/GPUParticleSystem 2/CL_Utils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s382357897.192604
-e382357897.735723
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383822799.294107
+e383822799.713583
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o
-x/myPrograms/GPUParticleSystem 2/CL_Utils.cpp
+x/myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /myPrograms/GPUParticleSystem 2/CL_Utils.cpp382357897#382357897#0(0"0(0#0#44"/myPrograms/GPUParticleSystem 2/CL_Utils.cpp8616698912#1460"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/CL_Utils.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o"0#
+lSLF07#2@59"Compile /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp383822799#383822799#0(0"0(0#0#51"/myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp8612694880#1515"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/CL_Utils.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/CL_Utils.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o "/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s382357895.879168
-e382357896.622915
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383822797.184363
+e383822797.843858
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o
-x/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp
+x/myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@56"Compile /myPrograms/GPUParticleSystem 2/OpenCLObject.cpp382357895#382357896#0(0"0(0#0#48"/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp8619831520#1468"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/OpenCLObject.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o"0#
+lSLF07#2@63"Compile /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp383822797#383822797#0(0"0(0#0#55"/myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp8613219008#1523"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/OpenCLObject.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenCLObject.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o "/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s382357896.623026
-e382357896.700281
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383822799.713682
+e383822799.776630
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o
-x/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp
+x/myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@55"Compile /myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp382357896#382357896#0(0"0(0#0#47"/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp8625275840#1466"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/OpenGLUtils.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o"0#
+lSLF07#2@62"Compile /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp383822799#383822799#0(0"0(0#0#54"/myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp8609487968#1521"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/OpenGLUtils.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/OpenGLUtils.o0#
 
-CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o "/myPrograms/GPUParticleSystem 2/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
-s382357895.878066
-e382357896.678312
+CCompileC build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o /myPrograms/GPUParticleSystemFinishing/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s383822797.183326
+e383822802.000754
 r1
 xCompileC
 xbuild/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o
-x/myPrograms/GPUParticleSystem 2/main.cpp
+x/myPrograms/GPUParticleSystemFinishing/main.cpp
 xnormal
 xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
-o/myPrograms/GPUParticleSystem 2/main.cpp: In function 'int main(int, char**)':
-o/myPrograms/GPUParticleSystem 2/main.cpp:117: warning: unused variable 'rndy'
-o/myPrograms/GPUParticleSystem 2/main.cpp:118: warning: unused variable 'rndz'
-lSLF07#2@48"Compile /myPrograms/GPUParticleSystem 2/main.cpp382357895#382357896#0(235"/myPrograms/GPUParticleSystem 2/main.cpp: In function 'int main(int, char**)':/myPrograms/GPUParticleSystem 2/main.cpp:117: warning: unused variable 'rndy'/myPrograms/GPUParticleSystem 2/main.cpp:118: warning: unused variable 'rndz'2(22@22"Unused variable 'rndy'382357896#79#78#0(6@40"/myPrograms/GPUParticleSystem 2/main.cpp345636160#117#0#117#0#19"unused variable '*'0(22@22"Unused variable 'rndz'382357896#157#78#0(6@40"/myPrograms/GPUParticleSystem 2/main.cpp345636160#118#0#118#0#19"unused variable '*'0(0#0#40"/myPrograms/GPUParticleSystem 2/main.cpp8621602272#1452"    cd "/myPrograms/GPUParticleSystem 2"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap" -iquote "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap" "-F/myPrograms/GPUParticleSystem 2/build/Release" "-I/myPrograms/GPUParticleSystem 2/build/Release/include" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64" "-I/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources" -c "/myPrograms/GPUParticleSystem 2/main.cpp" -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o"0#
+lSLF07#2@55"Compile /myPrograms/GPUParticleSystemFinishing/main.cpp383822797#383822802#0(0"0(0#0#47"/myPrograms/GPUParticleSystemFinishing/main.cpp7526475325199772672#1507"    cd /myPrograms/GPUParticleSystemFinishing    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-generated-files.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-own-target-headers.hmap -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-all-target-headers.hmap -iquote /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/GPUParticleSystem-project-headers.hmap -F/myPrograms/GPUParticleSystemFinishing/build/Release -I/myPrograms/GPUParticleSystemFinishing/build/Release/include -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources/x86_64 -I/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/DerivedSources -c /myPrograms/GPUParticleSystemFinishing/main.cpp -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/main.o0#
 
-CCreateUniversalBinary "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem" normal "x86_64 i386"
-s382357900.082324
-e382357900.119295
+CCreateUniversalBinary /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem normal "x86_64 i386"
+s383822804.667810
+e383822804.752281
 r1
 xCreateUniversalBinary
-x/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem
+x/myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem
 xnormal
 xx86_64 i386
-lSLF07#2@74"CreateUniversalBinary build/Release/GPUParticleSystem normal "x86_64 i386"382357900#382357900#0(0"0(0#0#43"/myPrograms/GPUParticleSystem 2/x86_64 i3868625330976#411"    cd "/myPrograms/GPUParticleSystem 2"    /usr/bin/lipo -create "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem" "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem" -output "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem"0#
+lSLF07#2@74"CreateUniversalBinary build/Release/GPUParticleSystem normal "x86_64 i386"383822804#383822804#0(0"0(0#0#50"/myPrograms/GPUParticleSystemFinishing/x86_64 i3868614928128#431"    cd /myPrograms/GPUParticleSystemFinishing    /usr/bin/lipo -create /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem -output /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem0#
 
-CGenerateDSYMFile "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem.dSYM" "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem"
-s382357900.119395
-e382357900.309856
+CGenerateDSYMFile /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem.dSYM /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem
+s383822804.752377
+e383822804.830047
 r1
 xGenerateDSYMFile
-x/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem.dSYM
-x/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem
-lSLF07#2@85"GenerateDSYMFile build/Release/GPUParticleSystem.dSYM build/Release/GPUParticleSystem382357900#382357900#0(0"0(0#0#63"/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem8624448864#213"    cd "/myPrograms/GPUParticleSystem 2"    /Developer/usr/bin/dsymutil "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem" -o "/myPrograms/GPUParticleSystem 2/build/Release/GPUParticleSystem.dSYM"0#
+x/myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem.dSYM
+x/myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem
+lSLF07#2@85"GenerateDSYMFile build/Release/GPUParticleSystem.dSYM build/Release/GPUParticleSystem383822804#383822804#0(0"0(0#0#70"/myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem8613538656#228"    cd /myPrograms/GPUParticleSystemFinishing    /Developer/usr/bin/dsymutil /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem -o /myPrograms/GPUParticleSystemFinishing/build/Release/GPUParticleSystem.dSYM0#
 
-CLd "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem" normal i386
-s382357900.013135
-e382357900.082071
+CLd /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem normal i386
+s383822804.580933
+e383822804.667715
 r1
 xLd
-x/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem
+x/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem
 xnormal
 xi386
-old: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -L not found
-old: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -F not found
-lSLF07#2@136"Link /myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem382357900#382357900#0(188"ld: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -L not foundld: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -F not found2(22@80"Directory '/myPrograms/GPUParticleSystem 2/build/Release' following -L not found382357900#0#94#0(6@0"382357900#0#0#0#0#0"0(22@80"Directory '/myPrograms/GPUParticleSystem 2/build/Release' following -F not found382357900#94#94#0(6@0"382357900#0#0#0#0#0"0(0#0#0"8621654592#637"    cd "/myPrograms/GPUParticleSystem 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/myPrograms/GPUParticleSystem 2/build/Release" "-F/myPrograms/GPUParticleSystem 2/build/Release" -filelist "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem.LinkFileList" -mmacosx-version-min=10.6 -framework GLUT -framework OpenCL -framework OpenGL -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem"0#
+old: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -L not found
+old: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -F not found
+lSLF07#2@143"Link /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem383822804#383822804#0(202"ld: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -L not foundld: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -F not found2(22@87"Directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -L not found383822804#0#101#0(6@0"383822804#0#0#0#0#0"0(22@87"Directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -F not found383822804#101#101#0(6@0"383822804#0#0#0#0#0"0(0#0#0"8609664544#662"    cd /myPrograms/GPUParticleSystemFinishing    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/GPUParticleSystemFinishing/build/Release -F/myPrograms/GPUParticleSystemFinishing/build/Release -filelist /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem.LinkFileList -mmacosx-version-min=10.6 -framework GLUT -framework OpenCL -framework OpenGL -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/i386/GPUParticleSystem0#
 
-CLd "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem" normal x86_64
-s382357897.931263
-e382357897.985710
+CLd /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem normal x86_64
+s383822802.000931
+e383822802.046582
 r1
 xLd
-x/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem
+x/myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem
 xnormal
 xx86_64
-old: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -L not found
-old: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -F not found
-lSLF07#2@138"Link /myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem382357897#382357897#0(188"ld: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -L not foundld: warning: directory '/myPrograms/GPUParticleSystem 2/build/Release' following -F not found2(22@80"Directory '/myPrograms/GPUParticleSystem 2/build/Release' following -L not found382357897#0#94#0(6@0"382357897#0#0#0#0#0"0(22@80"Directory '/myPrograms/GPUParticleSystem 2/build/Release' following -F not found382357897#94#94#0(6@0"382357897#0#0#0#0#0"0(0#0#0"8622688832#643"    cd "/myPrograms/GPUParticleSystem 2"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/myPrograms/GPUParticleSystem 2/build/Release" "-F/myPrograms/GPUParticleSystem 2/build/Release" -filelist "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem.LinkFileList" -mmacosx-version-min=10.6 -framework GLUT -framework OpenCL -framework OpenGL -o "/myPrograms/GPUParticleSystem 2/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem"0#
+old: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -L not found
+old: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -F not found
+lSLF07#2@145"Link /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem383822802#383822802#0(202"ld: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -L not foundld: warning: directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -F not found2(22@87"Directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -L not found383822802#0#101#0(6@0"383822802#0#0#0#0#0"0(22@87"Directory '/myPrograms/GPUParticleSystemFinishing/build/Release' following -F not found383822802#101#101#0(6@0"383822802#0#0#0#0#0"0(0#0#0"8609813376#668"    cd /myPrograms/GPUParticleSystemFinishing    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/myPrograms/GPUParticleSystemFinishing/build/Release -F/myPrograms/GPUParticleSystemFinishing/build/Release -filelist /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem.LinkFileList -mmacosx-version-min=10.6 -framework GLUT -framework OpenCL -framework OpenGL -o /myPrograms/GPUParticleSystemFinishing/build/GPUParticleSystem.build/Release/GPUParticleSystem.build/Objects-normal/x86_64/GPUParticleSystem0#
 

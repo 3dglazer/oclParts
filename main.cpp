@@ -14,6 +14,9 @@ using	namespace std;
 #define NUM_PARTICLES 1000000
 OpenCLObject* oclProgram;
 
+int frame=0,ellapsedTime=0,timebase=0;
+int fps;
+
 bool stop=true;
 int window_width = 1280;
 int window_height = 800;
@@ -252,7 +255,51 @@ void appMotion(int x, int y)
     glRotatef(rotate_x, 1.0, 0.0, 0.0);
     glRotatef(rotate_y, 0.0, 1.0, 0.0);
 }
-
+void fpsPrint(){
+	ellapsedTime=glutGet(GLUT_ELAPSED_TIME);
+	if (ellapsedTime - timebase > 1000) {
+		fps = frame*1000.0/(ellapsedTime-timebase);
+	 	timebase = ellapsedTime;
+		frame = 0;
+	}
+	
+	glColor3f(0.0f,1.0f,1.0f);
+	
+	glPushMatrix();
+	glLoadIdentity();
+	// switch to projection mode
+	glMatrixMode(GL_PROJECTION);
+	
+	// save previous matrix which contains the
+	//settings for the perspective projection
+	glPushMatrix();
+	
+	// reset matrix
+	glLoadIdentity();
+	
+	// set a 2D orthographic projection
+	gluOrtho2D(0, window_width, window_height, 0);
+	
+	// switch back to modelview mode
+	glMatrixMode(GL_MODELVIEW);
+	//renderBitmapString(30,35,(void *)font,s);
+	std::stringstream toPrint;
+    toPrint << "fps: " << fps<< std::ends;
+	string st=toPrint.str();
+	int l=st.length(); // see how many characters are in text string.
+	glRasterPos2i( 30, 35); // location to start printing text
+	for(int i=0; i < l; i++) // loop until i is greater then l
+	{
+		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, st[i]); // Print a character on the screen
+	}
+	glPopMatrix();
+	glMatrixMode(GL_PROJECTION);
+	// restore previous projection matrix
+	glPopMatrix();
+	
+	// get back to modelview mode
+	glMatrixMode(GL_MODELVIEW);
+}
 void appRender()
 {
 	glClearColor(0.5,0.5,0.5,0.0);
@@ -262,7 +309,10 @@ void appRender()
 		// Updating particle dynamics
 		oclProgram->runKernel();
 	}
-
+	fpsPrint();
+	frame++;
+	
+	
     glEnable(GL_BLEND);
 	
 	//this is purely additive

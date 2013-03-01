@@ -379,7 +379,7 @@ void OpenCLObject::runKernel(){
 	clEnqueueAcquireGLObjects(commandQueue, 1, &cl_col_vbo, NULL, NULL, &event);
 	//clWaitForEvents(1, &event);
 	//cout << "vbos acquired from GL vbos";
-	float dt = .01f;
+	float dt = .001f;
 	int nParts=num;
 	err=clSetKernelArg(kernelObject, 5, sizeof(cl_float), &dt);
 	err=clSetKernelArg(kernelObject, 6, sizeof(cl_int), &nParts);
