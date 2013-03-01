@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-=======
-/*
- *  OpenGLUtils.cpp
- *  GPUEvenOddMergeSort
- *
- *  Created by System Administrator on 1/10/11.
- *  Copyright 2011 __MyCompanyName__. All rights reserved.
- *
- */
 
->>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 #include "OpenGLUtils.h"
 GLuint createVBO(const void* data, int dataSize, GLenum target, GLenum usage)
 {

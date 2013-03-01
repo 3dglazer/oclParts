@@ -1,15 +1,4 @@
-<<<<<<< HEAD
-=======
-/*
- *  CL_Utils.cpp
- *  GPUParticleSystem
- *
- *  Created by System Administrator on 1/30/11.
- *  Copyright 2011 __MyCompanyName__. All rights reserved.
- *
- */
 
->>>>>>> cf3d2b62104e4d89c1b6556f45bbf9ded2905bce
 #include "CL_Utils.h"
 
 //decodes OpenCL errors into String
